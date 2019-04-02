@@ -1,0 +1,4 @@
+input.xyz     !input file filename
+64.0d0 1024   !max distance, number of bins
+1 1           !calculates rdf between pairs of type a b, where a,b = 1 (O) or 2 (H)
+

@@ -1,0 +1,12 @@
+      common/data/cvec,cveci,mol_type,lab_coord,natoms_of_type,atom_type,mol_natoms
+      common/reals/pi,angfac
+      common/ints/nmol,natoms
+      real(8), dimension(3,3) :: cvec,cveci	
+      integer, dimension(100) :: mol_type
+      real(8), dimension(3,100,8192) :: lab_coord
+      integer, dimension(100) :: natoms_of_type
+      integer, dimension(100,200) :: atom_type
+      integer, dimension(500) :: mol_natoms
+      real(8) :: pi,angfac
+      integer :: nmol,natoms
+
